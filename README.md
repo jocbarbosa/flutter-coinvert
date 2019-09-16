@@ -1,6 +1,6 @@
-# conversor
+# Flutter Coinvert
 
-A new Flutter project.
+A Currency converter made in flutter.
 
 ## Getting Started
 
