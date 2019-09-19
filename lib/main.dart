@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 
-const request = 'https://api.hgbrasil.com/finance';
+const request = "https://api.hgbrasil.com/finance?format=json&key=466e07fe";
 
 void main() async {
   runApp(MaterialApp(
@@ -66,7 +66,7 @@ class _HomeState extends State {
                     "Loading ...",
                     style: TextStyle(
                       color: Colors.amber,
-                      fontSize: 22.0,
+                      fontSize: 20.0,
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -78,7 +78,7 @@ class _HomeState extends State {
                       "Loading error",
                       style: TextStyle(
                         color: Colors.amber,
-                        fontSize: 22.0,
+                        fontSize: 20.0,
                       ),
                       textAlign: TextAlign.center,
                     ),
@@ -123,7 +123,7 @@ Widget buildTextField(String label, String prefix, TextEditingController c, Func
       prefixText: prefix,
     ),style: TextStyle(
       color: Colors.amber,
-      fontSize: 25.0
+      fontSize: 18.0
     ),
     onChanged: f,
     keyboardType: TextInputType.number,
